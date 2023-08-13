@@ -13,9 +13,17 @@
 
 ### Starting the Application with Docker Compose
 
-1. Install Docker for Windows or Docker for Mac (If you're on Windows 7 install Docker Toolbox: http://docker.com/toolbox).
+1. Install Docker for Windows or Docker for Mac (If you're on Windows 7 install Docker Toolbox: http://docker.com/toolbox). 
+
 
 2. Open a command prompt at the root of the application's folder.
+
+   Install the docker-compose using commands
+    -> sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+    -> sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+
+    -> sudo chmod +x /usr/local/bin/docker-compose
 
 3. Run `docker-compose build`
 
