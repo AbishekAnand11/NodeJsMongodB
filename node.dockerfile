@@ -19,8 +19,6 @@
 
 FROM        node:alpine
 
-LABEL       author="Dan Wahlin"
-
 ARG         PACKAGES=nano
 
 ENV         TERM xterm
